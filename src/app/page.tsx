@@ -4,6 +4,7 @@ import Header from "./home/Header";
 import MeetTeam from "./home/MeetTeam";
 import Construction from "./home/Construction";
 import Masonary from "./home/Masonary";
+import ContactUs from "./home/ContactUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <MeetTeam />
       <Construction />
       <Masonary />
+      <ContactUs />
     </div>
   );
 }
