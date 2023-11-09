@@ -37,11 +37,11 @@ function Vision() {
             alt=""
           />
         </div>
-        <div className="flex justify-between">
-          <div className="translate-x-8 -translate-y-[33%]">
+        <div className="flex justify-between items-end -mt-[17%]">
+          <div className="translate-x-8 -translate-y-6">
             <img src="/images/Exclude.svg" alt="" />
           </div>
-          <div className="bg-white pt-5 pb-12 pl-8 pr-6 max-w-[483px] -translate-x-[71px] -translate-y-[55%]">
+          <div className="bg-white pt-5 pb-12 pl-8 pr-6 max-w-[483px] -translate-x-[71px] ">
             <div className="text-2xl text-orange-600 font-bold">
               Build With Us
             </div>

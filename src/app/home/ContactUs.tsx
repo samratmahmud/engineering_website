@@ -4,21 +4,21 @@ import React from "react";
 function ContactUs() {
   return (
     <section
-      className="pt-16 pb-[190px] mb-32"
+      className="pt-16 pb-[190px] mb-32 z-0 relative"
       style={{backgroundImage: "linear-gradient(#E0E5EB 55%,#F48024 45%)"}}
     >
       <div className="container">
-        <div className="relative">
-          <div className="flex justify-center">
+        <div className="relative ">
+          <div className="flex justify-center relative z-10">
             <img src="/images/def 1.png" alt="" />
           </div>
-          <div className="absolute bottom-0 translate-y-[90px]">
+          <div className="absolute bottom-0 translate-y-[90px] -z-10">
             <img
               src="/images/227f0f5b-bd4e-986c-8df1-dd316754190b 1.png"
               alt=""
             />
           </div>
-          <div className="max-w-[620px] bg-white pt-10 pr-[53px] pb-[60px] pl-10 absolute bottom-0 translate-y-[120px] right-0">
+          <div className="max-w-[620px] bg-white pt-10 pr-[53px] pb-[60px] pl-10 absolute bottom-0 translate-y-[120px] right-0 z-20">
             <div className="text-2xl text-orange-600 font-bold">
               Build With Us
             </div>

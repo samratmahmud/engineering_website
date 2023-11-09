@@ -1,0 +1,24 @@
+@font-face {
+  src: url("./RobotoCondensed-Light.ttf");
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  src: url("./RobotoCondensed-LightItalic.ttf");
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  src: url("./RobotoCondensed-Bold.ttf");
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  src: url("./RobotoCondensed-BoldItalic.ttf");
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  font-style: italic;
+}

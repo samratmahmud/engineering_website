@@ -15,6 +15,7 @@ const config: Config = {
           "300": "#A3A3A3",
           "400": "#E0E5EB",
           "500": "#555C66",
+          "900": "#292D33",
         },
         orange: {
           "300": "#F9AC44",
@@ -42,7 +43,7 @@ const config: Config = {
       "open-Sans": ["'Open Sans'", ...fontFamily.sans],
       "roboto-Condensed": ["'Roboto Condensed'", ...fontFamily.sans],
       roboto: ["'Roboto'", ...fontFamily.sans],
-      oswald: ["'Oswald'", ...fontFamily.sans],
+      oswald: ["'Oswald'", "serif"],
       inter: ["'Inter'", ...fontFamily.sans],
     },
     container: {
