@@ -51,6 +51,12 @@ const config: Config = {
         DEFAULT: "1rem",
       },
     },
+    screens: {
+      sm: "600px",
+      md: "768px",
+      lg: "972px",
+      xl: "1175px",
+    },
   },
   plugins: [],
 };

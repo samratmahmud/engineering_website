@@ -34,8 +34,8 @@ function Masonary() {
           ))}
         </div>
       </div>
-      <div className="absolute top-0 -z-10 translate-y-[110%]">
-        <img className="ml-40 w-full" src="/images/Rectangle 8.png" alt="" />
+      <div className="absolute top-0 right-0 -z-10 translate-y-[110%]">
+        <img className="w-full" src="/images/Rectangle 8.png" alt="" />
       </div>
     </section>
   );
