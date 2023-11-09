@@ -5,7 +5,7 @@ function Construction() {
   return (
     <section className="bg-gray-400 mb-[70px]">
       <div className="container py-24">
-        <div className=" flex gap-28">
+        <div className="md:flex gap-28">
           <div>
             <div className="text-lg text-orange-600 font-bold mb-4 font-roboto">
               WELCOME TO

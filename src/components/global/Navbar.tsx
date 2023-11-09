@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="container py-6">
+    <nav className="container md:py-6 py-4">
       <div className="flex justify-between gap-5 items-center">
         <Link href="/">
           <img src="/images/logo.svg" alt="Logo" />

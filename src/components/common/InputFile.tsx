@@ -9,11 +9,9 @@ interface inputProps
 function InputFile(props: inputProps) {
   const {type, id, placeholder, className} = props;
   return (
-    <div
-      className={`border border-gray-300 focus:border-gray-100  p-3 ${className}`}
-    >
+    <div className={`${className}`}>
       <input
-        className="focus:outline-none text-sm placeholder:text-gray-300 uppercase w-[60%] placeholder:font-inter"
+        className="focus:outline-none md:text-sm text-xs placeholder:text-gray-300 uppercase placeholder:font-inter w-full border border-gray-300 focus:border-gray-900 md:p-3 py-2 px-3"
         type={type}
         placeholder={placeholder}
         id={id}

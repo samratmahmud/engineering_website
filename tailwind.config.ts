@@ -27,6 +27,7 @@ const config: Config = {
       },
     },
     fontSize: {
+      sx: ["11px", {lineHeight: ""}],
       xs: ["13px", {lineHeight: ""}],
       sm: ["16px", {lineHeight: "26px"}],
       md: ["18px", {lineHeight: "22px", letterSpacing: "0.36px"}],

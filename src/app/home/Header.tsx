@@ -27,17 +27,17 @@ const pages = [
 
 function Header() {
   return (
-    <section className="bg-gray-400 mb-11">
-      <div className="pt-8 pb-[60px] container">
-        <div className="flex gap-5 justify-between">
+    <section className="bg-gray-400 md:mb-11 mb-7">
+      <div className="md:pt-8 md:pb-[60px] py-7 container">
+        <div className="lg:flex gap-5 justify-between">
           <div>
             <img src="/images/ggg-min 1.png" alt="" />
           </div>
-          <div className="max-w-[513px]">
-            <div className="text-base font-bold mb-5 mt-7 font-roboto">
+          <div className="lg:max-w-[513px]">
+            <div className="md:text-base text-md font-bold md:mb-5 mb-3 mt-7 font-roboto">
               ABOUT US
             </div>
-            <div className="text-4xl font-bold text-orange-600 mb-5 font-oswald">
+            <div className="md:text-4xl text-2xl font-bold text-orange-600 md:mb-5 mb-3 font-oswald">
               Architecture, Engineering & Design Firm
             </div>
             <div className="text-sm mb-9 italic">
@@ -49,25 +49,27 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="flex">
+        <div className="md:flex">
           {pages.map(({thumbneil, title, contain, button}, index) => (
             <div
               key={index}
-              className="bg-orange-500 last:bg-orange-300 first:bg-orange-600 py-[30px] px-7"
+              className="bg-orange-500 last:bg-orange-300 first:bg-orange-600 md:py-[30px] md:px-7 p-5"
             >
               <div className="flex justify-center">
-                <div className="bg-white rounded-full mb-7">
-                  <img className="p-5" src={thumbneil} alt="" />
-                </div>
+                <img
+                  className="p-5 bg-white rounded-full md:mb-7 mb-4"
+                  src={thumbneil}
+                  alt=""
+                />
               </div>
-              <div className="text-xl font-roboto-Condensed font-light mb-5 text-white text-center">
+              <div className="md:text-xl text-lg font-roboto-Condensed font-light md:mb-5 mb-4 text-white text-center">
                 {title}
               </div>
-              <div className="text-sm italic mb-6 text-white text-center">
+              <div className="md:text-sm text-xs italic md:mb-6 mb-4 text-white text-center">
                 {contain}
               </div>
               <div className="flex justify-center">
-                <button className="text-sm font-light bg-white py-2.5 px-8">
+                <button className="text-sm font-light bg-white md:py-2.5 py-1.5 px-8">
                   {button}
                 </button>
               </div>

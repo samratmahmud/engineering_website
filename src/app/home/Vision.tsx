@@ -38,18 +38,14 @@ function Vision() {
           />
         </div>
         <div className="flex justify-between items-end -mt-[17%]">
-          <div className="translate-x-8 -translate-y-6">
+          <div className="translate-x-8">
             <img src="/images/Exclude.svg" alt="" />
           </div>
           <div className="bg-white pt-5 pb-12 pl-8 pr-6 max-w-[483px] -translate-x-[71px] ">
-            <div className="text-2xl text-orange-600 font-bold">
-              Build With Us
-            </div>
+            <div className="text-2xl font-bold">OUR VISION</div>
             <div className="text-sm mb-5">
-              Our vision is to inspire an organization of professionals to
-              complete high-value, high-quality projects that positively impact
-              communities — and it is our approach and our culture that sets us
-              apart.
+              We thrive on new challenges and are at our best when a project is
+              technically or logistically demanding and requires smart planning.
             </div>
             <div className="text-sm mb-5">
               Images from <span className="underline">Freepik</span>
