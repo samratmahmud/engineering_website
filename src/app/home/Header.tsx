@@ -45,7 +45,7 @@ function Header() {
               environmentally sensitive surroundings.
             </div>
             <div className="mb-5">
-              <Button name="READ MORE" />
+              <Button name="READ MORE" fontWeight="bold" />
             </div>
           </div>
         </div>

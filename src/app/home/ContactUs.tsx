@@ -4,21 +4,27 @@ import React from "react";
 function ContactUs() {
   return (
     <section
-      className="md:pt-16 pt-10 pb-52 md:mb-32 mb-10 z-0 relative"
+      className="md:pt-16 py-10 md:pb-24 md:mb-32 mb-10 z-0 relative"
       style={{backgroundImage: "linear-gradient(#E0E5EB 55%,#F48024 45%)"}}
     >
       <div className="container">
         <div className="relative">
           <div className="flex justify-center relative z-10">
-            <img src="/images/def 1.png" alt="" />
+            <img
+              className="w-[calc(100%-32px)]"
+              src="/images/def 1.png"
+              alt=""
+            />
           </div>
-          <div className="absolute bottom-0 translate-y-[90px] -z-10">
+          <div className="absolute md:-bottom-[90px] -bottom-4 -z-10">
             <img
               src="/images/227f0f5b-bd4e-986c-8df1-dd316754190b 1.png"
               alt=""
             />
           </div>
-          <div className="max-w-[620px] mx-3 bg-white md:pt-10 md:pr-[53px] md:pb-[60px] md:pl-10 p-6 absolute bottom-0 md:translate-y-1/3 translate-y-[60%] right-0 z-20">
+        </div>
+        <div className="flex justify-end md:-mt-60 mt-7">
+          <div className="max-w-[620px] bg-white md:pt-10 md:pr-[53px] md:pb-[60px] md:pl-10 p-6 z-20">
             <div className="md:text-2xl text-xl text-orange-600 font-bold">
               Build With Us
             </div>
