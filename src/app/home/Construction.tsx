@@ -3,24 +3,24 @@ import React from "react";
 
 function Construction() {
   return (
-    <section className="bg-gray-400 mb-[70px]">
-      <div className="container py-24">
-        <div className="md:flex gap-28">
+    <section className="bg-gray-400 md:mb-[70px] mb-10">
+      <div className="container md:py-24 py-8">
+        <div className="flex md:flex-row flex-col lg:gap-28 gap-8">
           <div>
-            <div className="text-lg text-orange-600 font-bold mb-4 font-roboto">
+            <div className="md:text-lg text-base text-orange-600 font-bold mb-4 font-roboto">
               WELCOME TO
             </div>
-            <div className="text-3xl font-bold font-oswald mb-7">
+            <div className="md:text-3xl text-2xl font-bold font-oswald md:mb-7 mb-5">
               Construction Company
             </div>
-            <hr className="h-2 w-[36%] bg-orange-600 mb-7" />
-            <div className="text-lg text-gray-200 italic">
+            <hr className="h-2 md:w-[36%] w-[80%] bg-orange-600 md:mb-7 mb-5" />
+            <div className="md:text-lg text-base text-gray-200 italic">
               We are the leader with 25 years of experience in the construction
               market!
             </div>
           </div>
-          <div className="text-sm max-w-[529px]">
-            <div className="mb-7">
+          <div className="md:text-sm text-xs max-w-[529px]">
+            <div className="md:mb-7 mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece
               gravida cursus eleifend. Nullam ornare sapien quis vulputate
               cursus. Vivamus vel pellentesque purus, sed dignissim elit.

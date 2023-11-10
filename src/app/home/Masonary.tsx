@@ -13,12 +13,13 @@ const pictureGroup = [
 
 function Masonary() {
   return (
-    <section className="relative">
-      <div className="container mb-[60px] z-0">
-        <div className="text-5xl font-bold text-orange-600 mb-5 font-oswald">
+    <section className="relative z-0">
+      <div className="bg-orange-500 w-[75%] h-[30%] absolute top-1/2 right-0 -z-10" />
+      <div className="container md:mb-[60px] mb-10 z-0">
+        <div className="md:text-5xl text-2xl font-bold text-orange-600 mb-5 font-oswald">
           How We Work
         </div>
-        <div className="text-sm italic mb-10 max-w-[786px]">
+        <div className="md:text-sm text-xs italic mb-10 max-w-[786px]">
           Viverra nam libero justo laoreet sit. Nisl nunc mi ipsum faucibus. Ut
           ornare lectus sit amet est placerat in egestas. Felis donec et odio
           pellentesque. Eget arcu dictum varius duis at consectetur lorem donec
@@ -26,19 +27,18 @@ function Masonary() {
           pellentesque eu tincidunt tortor aliquam nulla. Amet consectetur
           adipiscing elit duis tristique sollicitudin nibh sit.
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 gap-7 mr-28">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-7 md:mr-[13%]">
           {pictureGroup.map((item, index) => (
             <div key={index}>
-              <img src={item} alt="" />
+              <img className="w-full" src={item} alt="" />
             </div>
           ))}
         </div>
-      </div>
-      <div className="absolute top-0 right-0 -z-10 translate-y-[110%]">
-        <img className="w-full" src="/images/Rectangle 8.png" alt="" />
       </div>
     </section>
   );
 }
 
 export default Masonary;
+
+//Rectangle 8.png

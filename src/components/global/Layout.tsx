@@ -8,7 +8,7 @@ interface layoutProps {
 function Layout(props: layoutProps) {
   const {children} = props;
   return (
-    <main>
+    <main className="max-w-[1920px] m-auto">
       <Navbar />
       {children}
     </main>

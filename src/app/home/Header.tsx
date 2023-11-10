@@ -53,7 +53,7 @@ function Header() {
           {pages.map(({thumbneil, title, contain, button}, index) => (
             <div
               key={index}
-              className="bg-orange-500 last:bg-orange-300 first:bg-orange-600 md:py-[30px] md:px-7 p-5"
+              className="bg-orange-500 last:bg-orange-300 first:bg-orange-600 py-[30px] px-7"
             >
               <div className="flex justify-center">
                 <img

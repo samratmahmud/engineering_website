@@ -20,13 +20,16 @@ function MeetTeam() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </div>
-        <div>
-          <div className="flex md:flex-row flex-col gap-5 md:pb-[60px] pb-10">
+        <div className="flex md:flex-row flex-col md:items-end gap-10 md:pb-[60px] pb-10">
+          <div className="flex md:flex-row flex-col gap-5">
             {meetPic.map((item) => (
               <div>
                 <img className="w-full" src={item} alt="" />
               </div>
             ))}
+          </div>
+          <div className="text-sm">
+            Images from <span className="underline">Freepik</span>
           </div>
         </div>
       </div>

@@ -11,9 +11,9 @@ import Footer from "./home/Footer";
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <MeetTeam />
-      <Construction />
+      <Construction /> */}
       <Masonary />
       <ContactUs />
       <Vision />

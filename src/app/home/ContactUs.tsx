@@ -4,11 +4,11 @@ import React from "react";
 function ContactUs() {
   return (
     <section
-      className="pt-16 pb-[190px] mb-32 z-0 relative"
+      className="md:pt-16 pt-10 pb-52 md:mb-32 mb-10 z-0 relative"
       style={{backgroundImage: "linear-gradient(#E0E5EB 55%,#F48024 45%)"}}
     >
       <div className="container">
-        <div className="relative ">
+        <div className="relative">
           <div className="flex justify-center relative z-10">
             <img src="/images/def 1.png" alt="" />
           </div>
@@ -18,11 +18,11 @@ function ContactUs() {
               alt=""
             />
           </div>
-          <div className="max-w-[620px] bg-white pt-10 pr-[53px] pb-[60px] pl-10 absolute bottom-0 translate-y-[120px] right-0 z-20">
-            <div className="text-2xl text-orange-600 font-bold">
+          <div className="max-w-[620px] mx-3 bg-white md:pt-10 md:pr-[53px] md:pb-[60px] md:pl-10 p-6 absolute bottom-0 md:translate-y-1/3 translate-y-[60%] right-0 z-20">
+            <div className="md:text-2xl text-xl text-orange-600 font-bold">
               Build With Us
             </div>
-            <div className="text-sm mb-5">
+            <div className="md:text-sm text-xs mb-5">
               Our vision is to inspire an organization of professionals to
               complete high-value, high-quality projects that positively impact
               communities — and it is our approach and our culture that sets us

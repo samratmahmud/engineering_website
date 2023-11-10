@@ -10,18 +10,18 @@ function Vision() {
       }}
     >
       <div className="container pb-[60px]">
-        <div className="text-lg text-center max-w-[630px] m-auto mb-7">
+        <div className="md:text-lg text-md md:text-center max-w-[630px] m-auto mb-7">
           Eget egestas purus viverra accumsan in nisl nisi. Viverra ipsum nunc
           aliquet bibendum enim. Ac tortor vitae purus faucibus ornare
           suspendisse sed nisi lacus. Platea dictumst vestibulum rhoncus est
           pellentesque elit ullamcorper dignissim cras. Id semper risus in
           hendrerit.
         </div>
-        <div className="flex justify-center mb-44">
+        <div className="flex justify-center md:mb-44 mb-8">
           <Button name="LEARN MORE" />
         </div>
-        <div className="flex gap-20 justify-between">
-          <div className="text-3xl text-white font-bold font-roboto-Condensed max-w-[537px]">
+        <div className="flex lg:flex-row flex-col lg:gap-20 gap-10 justify-between">
+          <div className="md:text-3xl text-2xl text-white font-bold font-roboto-Condensed md:max-w-[537px] mt-3 lg:mt-0">
             Expert, Efficient, Collaborative. Build With Experience
           </div>
           <div>
@@ -31,7 +31,7 @@ function Vision() {
             />
           </div>
         </div>
-        <div className="-mt-[8%]">
+        <div className="xl-mt-[8%] -mt-[3%]">
           <img
             src="/images/b040b88d-6b52-4485-b452-164ef24c8fe6 1.jpg"
             alt=""
