@@ -12,8 +12,8 @@ function Button(props: buttonProps) {
       role="button"
       className={`${
         fontWeight === "normal"
-          ? "bg-orange-500 py-2.5 px-7 tracking-[1.68px] text-sm text-white inline-block"
-          : "bg-orange-500 py-2.5 px-7 tracking-[1.68px] text-sm text-white inline-block font-bold"
+          ? "bg-orange-500 py-2.5 px-7 tracking-[1.68px] md:text-sm text-xs text-white inline-block hover:bg-orange-300 duration-300"
+          : "bg-orange-500 py-2.5 px-7 tracking-[1.68px] md:text-sm text-xs text-white inline-block font-bold hover:bg-orange-300 duration-300"
       }`}
     >
       {name}

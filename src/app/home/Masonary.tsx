@@ -37,7 +37,7 @@ function Masonary() {
           pellentesque eu tincidunt tortor aliquam nulla. Amet consectetur
           adipiscing elit duis tristique sollicitudin nibh sit.
         </div>
-        <div className="grid lg:grid-cols-3  gap-7 md:mr-[13%]">
+        <div className="grid lg:grid-cols-3  md:gap-7 gap-4 md:mr-[13%]">
           {pictureGroup.map(({image, grid}, index) => (
             <div key={index} className={grid}>
               <img className="w-full" src={image} alt="" />

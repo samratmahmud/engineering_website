@@ -4,19 +4,15 @@ import React from "react";
 function ContactUs() {
   return (
     <section
-      className="md:pt-16 py-10 md:pb-24 md:mb-32 mb-10 z-0 relative"
+      className="md:pt-16 py-10 md:pb-24 md:mb-28 mb-10 z-0 relative"
       style={{backgroundImage: "linear-gradient(#E0E5EB 55%,#F48024 45%)"}}
     >
       <div className="container">
         <div className="relative">
           <div className="flex justify-center relative z-10">
-            <img
-              className="w-[calc(100%-32px)]"
-              src="/images/def 1.png"
-              alt=""
-            />
+            <img src="/images/def 1.png" alt="" />
           </div>
-          <div className="absolute md:-bottom-[90px] -bottom-4 -z-10">
+          <div className="absolute -bottom-[90px] -z-10 hidden md:block">
             <img
               src="/images/227f0f5b-bd4e-986c-8df1-dd316754190b 1.png"
               alt=""

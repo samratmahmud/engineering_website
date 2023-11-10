@@ -8,7 +8,10 @@ function Navbar() {
         <Link href="/">
           <img src="/images/logo.svg" alt="Logo" />
         </Link>
-        <div role="button">
+        <div
+          role="button"
+          className="hover:bg-gray-400 rounded-md duration-300"
+        >
           <img className="p-2" src="/images/Icon.svg" alt="Logo" />
         </div>
       </div>

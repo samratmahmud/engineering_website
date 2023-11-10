@@ -4,7 +4,7 @@ import React from "react";
 function Vision() {
   return (
     <section>
-      <div className="mb-[90px]">
+      <div className="container md:mb-[90px] mb-12">
         <div className="md:text-lg text-md md:text-center max-w-[648px] m-auto mb-7 leading-9">
           Eget egestas purus viverra accumsan in nisl nisi. Viverra ipsum nunc
           aliquet bibendum enim. Ac tortor vitae purus faucibus ornare
@@ -12,7 +12,7 @@ function Vision() {
           pellentesque elit ullamcorper dignissim cras. Id semper risus in
           hendrerit.
         </div>
-        <div className="flex justify-center md:mb-44 mb-8">
+        <div className="flex justify-center">
           <Button name="LEARN MORE" />
         </div>
       </div>
