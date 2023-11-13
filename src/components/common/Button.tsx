@@ -10,10 +10,8 @@ function Button(props: buttonProps) {
   return (
     <div
       role="button"
-      className={`${
-        fontWeight === "normal"
-          ? "bg-orange-500 py-2.5 px-7 tracking-[1.68px] md:text-sm text-xs text-white inline-block hover:bg-orange-300 duration-300"
-          : "bg-orange-500 py-2.5 px-7 tracking-[1.68px] md:text-sm text-xs text-white inline-block font-bold hover:bg-orange-300 duration-300"
+      className={`bg-orange-500 py-2.5 px-7 tracking-[1.68px] md:text-sm text-xs text-white inline-block hover:bg-orange-300 duration-300 ${
+        fontWeight === "normal" ? "" : "font-bold"
       }`}
     >
       {name}

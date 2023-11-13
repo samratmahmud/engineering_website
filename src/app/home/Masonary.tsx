@@ -50,5 +50,3 @@ function Masonary() {
 }
 
 export default Masonary;
-
-//Rectangle 8.png
